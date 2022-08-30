@@ -1,0 +1,68 @@
+/* body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container__main {
+    color: blueviolet;
+}
+.p__secundary--green {
+    color: green;
+}
+.p__secundary--blue {
+    color: blue;
+}
+.p__secundary {
+    font-size: 20px;
+}
+.p {
+    background-color: hotpink;
+}
+.p__thrid--big {
+    font-size: large;
+    background-color: yellow;
+}
+.p {
+    background-color: darkblue;
+    color: aliceblue;
+} */
+
+.div__login {
+    width: 180px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 15px;
+    padding: 10px;
+}
+.form__login > *{
+    margin-bottom: 10px;
+}
+.button__submit {
+    background-color: rgb(0, 153, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    width: 160px;
+    color: aliceblue;
+}
+.button__submit:hover {
+    background-color: hotpink;
+    font-weight: bold;
+}
+.form__login > .input__email--green {
+    color: green;
+}
+/* Selector adyacente */
+.form__login > .input__email--green + label {
+    font-style: italic;
+}
+.form__login > .input__password + .button__submit {
+box-shadow: 10px 5px 5px grey;
+}
+/* Last child */
+.form__login button:last-child{
+    border: 1px solid black;
+}
